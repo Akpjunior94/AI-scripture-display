@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap");
+
+:root {
+  --bg-dark: #0a0a0f;
+  --gold: #d4a853;
+}
+
+html,
+body {
+  @apply bg-[var(--bg-dark)] text-white antialiased;
+  scroll-behavior: smooth;
+}
